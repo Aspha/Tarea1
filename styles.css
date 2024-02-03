@@ -25,7 +25,6 @@ header{
     height: auto;
 }
 
-
 .navmenu{
     display: flex;
 }
@@ -142,9 +141,62 @@ section{
 .down i:hover{
     background-color: #3d3d3d;
     color: #fff;
-    transition: all .42 ease;
+    transition: all .42s ease;
 }
 
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span{
+    color: bisque;
+
+}
+
+.products1, .products2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    transition: all 0.5s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.row .heart-icon{
+    position: absolute;
+    right: 10%;
+    font-size: 20px;
+}
+
+.row .heart-icon:hover{
+    color: bisque;
+}
+
+.ratting i{
+    color: bisque;
+    font-size: 18px;
+}
+
+footer{
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background: #f3f4f6;
+    padding: 20px 10%;
+}
+
+.contact-info{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+}
 
 
 
