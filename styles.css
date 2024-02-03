@@ -66,3 +66,34 @@ header{
     z-index: 10001;
     cursor: pointer;
 }
+
+section{
+    padding: 5% 10.5%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(src/banner.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;    
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text h5{
+    color:bisque;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1{
+    color: #000;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
