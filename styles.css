@@ -84,7 +84,7 @@ section{
 
 .main-text h5{
     color:bisque;
-    font-size: 16px;
+    font-size: 22px;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -96,4 +96,31 @@ section{
     line-height: 1.1;
     font-weight: 600;
     margin: 6px 0 10px;
+}
+
+.main-text p{
+    color: rgb(175, 150, 119);
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-btn{
+    display: inline-block;
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 10px 30px;
+    transition: all .42s ease;
+}
+
+.main-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.main-btn i{
+    vertical-align: middle;
 }
