@@ -212,6 +212,8 @@ footer{
     border-radius: 10px;
     color: #8f8d8d;
     padding: 40px 35px 55px;
+    border: 2px solid rgba(102, 98, 98, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .reg-form h1{
